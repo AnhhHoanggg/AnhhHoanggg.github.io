@@ -1,1 +1,94 @@
+body{
+  margin: 0px;
+  padding:0px;
 
+}
+
+/* Global */
+.container{
+  padding-left:50px;
+
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Header **/
+header{
+  background-color:yellow;
+  border-style:solid;
+  border-bottom-width: 3px;
+  border-bottom-color: orangered;
+
+}
+
+header a{
+
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header li{
+  margin-left: 20px;
+  display:inline-block;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+header #branding{
+  text-align: left;
+}
+
+header #branding h1{
+  color:white;
+  padding-top:20px;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left:500px;
+  padding-top:0;
+}
+
+header .highlight, header .current a{
+  color:orangered;
+
+}
+
+header a:hover{
+font-weight: bold;
+
+}
+
+footer{
+  background-color: orangered;
+  color:white;
+  text-align: center;
+  padding-top:25px;
+  padding-bottom:25px;
+
+}
+
+#showcase{
+  background: url(https://cdn.tgdd.vn/Files/2020/06/08/1261696/moi-tai-bo-hinh-nen-asus-rog-2020-moi-nhat_800x450.jpg);
+  padding-top: 150px;
+}
+
+#showcase .container h1{
+  color: wheat;
+    text-align: center;
+    font-size: 30px;
+}
+
+#showcase .container p{
+  text-align: center;
+    color: wheat;
+    font-size: 20px;
+}
